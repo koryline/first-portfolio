@@ -1,0 +1,173 @@
+body{
+    background-color: #1e1e1e;
+    color: white;
+    line-height: 1.6;
+    padding: 20px;
+    background: linear-gradient(135deg,#121212,red);
+    opacity: 0.3;   
+}
+body:hover{
+    transition: ease-in-out 1s;
+    opacity: 1;
+}
+hr{
+    margin: 40px;
+}
+.bar{
+    color: white;
+    padding: 10px;
+    display: flex;
+    align-items: right;
+    width: 60%px;
+    height: 45px;
+    align-self: center;
+    border: 0px solid;
+    margin-left: 350px;
+}
+.nav-links{
+    color:black;
+    display: flex;   
+    font-size: 20px;
+    margin-left: 550px;
+}
+.nav-links a:hover{
+    color: #f4a261;
+}
+.nav-links a{
+    color: white;
+    text-decoration: none;
+    margin-right: 16px;
+    transition: ease-in-out 2s;
+}
+nav ul li{
+    margin: 0 15px;
+    font-size: 18px;
+}
+#Home{
+    box-align: center;
+    font-size: 40px;
+    margin-left: 350px; 
+    color: white;
+    cursor: pointer;
+}
+#Home:hover{
+    color: black;
+}
+input{
+    background-color: black;
+    color:white;
+    height: 40px;
+    width: 30%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+textarea{
+    background-color: black;
+    color: white;
+    width: 50%;
+    height: 100px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+button{
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #0056b3;
+    transform: scale3d(90);
+}
+
+@media screen and (max-width:320px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        opacity: 1;
+    }
+    .bar {
+        margin: 0;
+        padding: 0;
+    }
+    nav ul li{
+        margin: 0;
+    }
+    .nav-links {
+        margin: 0;
+    }
+    #Home {
+        margin-left: 0px;
+    }
+    input {
+        width: 90%;
+    }
+    textarea  {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width:450px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        opacity: 1;
+    }
+    .bar {
+        margin: 0;
+        padding: 0;
+    }
+    nav ul li{
+        margin: 0;
+    }
+    .nav-links {
+        margin: 0;
+    }
+    #Home {
+        margin-left: 0px;
+    }
+    input {
+        width: 90%;
+    }
+    textarea  {
+        width: 90%;
+    }
+}
+@media screen and (max-width: 4260px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        opacity: 1;
+    }
+    .bar {
+        margin: 0;
+        padding: 0;
+    }
+    nav ul li{
+        margin: 0;
+    }
+    .nav-links {
+        margin: 0;
+    }
+    #Home {
+        margin-left: 0px;
+    }
+    input {
+        width: 90%;
+    }
+    textarea  {
+        width: 90%;
+    }
+}
